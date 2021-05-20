@@ -1,0 +1,25 @@
+
+body{
+    background-color: #7758e8;
+}
+
+.app-heading{
+    color:white;
+}
+
+.search-box{
+    width:350px;
+    height:36px;
+    border-radius:10px;
+    border:2px solid #441cd6;
+}
+
+.search-box:focus{
+    outline:none;
+}
+
+.movieDisplay{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}

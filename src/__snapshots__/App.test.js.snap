@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should take a snapshot 1`] = `
+<div
+  className="App"
+>
+  <h1
+    className="app-heading"
+  >
+    Find your favourite movies below!!!
+  </h1>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      className="search-box"
+      data-testid="search bar"
+      onChange={[Function]}
+      placeholder="Enter the movie name here....."
+      type="text"
+      value=""
+    />
+  </form>
+  <div />
+  <div />
+  <div
+    className="movieDisplay"
+  />
+</div>
+`;

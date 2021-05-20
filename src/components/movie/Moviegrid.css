@@ -1,0 +1,50 @@
+.movie{
+    width: 300px;
+    margin: 1rem;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    background-color: #4f3d8f;
+    color: white;
+    position:relative;
+}
+
+.movie img{
+    object-fit: cover;
+    height:300px;
+    width:100%;
+}
+
+.movie-info{
+    display:flex;
+    padding-bottom:1rem;
+    padding-left:0.3rem;
+    padding-right:0.3rem;
+    justify-content: space-between;
+}
+
+.spacer{
+    width:20px;
+}
+
+.movie-info span{
+    margin:0;
+    padding:0;
+}
+
+.movie-info p{
+    margin:0;
+    padding:0;
+}
+
+.movie-info{
+    margin-bottom:20px;
+}
+
+.detailsButton{
+    position:absolute;
+    bottom:0;
+    left:0;
+    background-color:#a14bdb;
+    border:none;
+    padding:5px;
+}

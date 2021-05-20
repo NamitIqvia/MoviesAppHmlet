@@ -1,0 +1,45 @@
+
+.cardDetailsTitle{
+   margin-bottom:20px;
+}
+
+.movieDetails{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.ImageContainer{
+    width: 30vw;
+    margin-right: 1rem;
+    margin-left:1rem;
+}
+
+.ImageContainer img{
+    object-fit: cover;
+    height:400px;
+    width:100%;
+}
+
+.cardDetailsTitle{
+    text-decoration: underline;
+}
+
+.OverviewContainer{
+    margin-left:1rem;
+}
+
+.OverviewContainer h2{
+    margin:0;
+    padding:0;
+    text-align: left;
+    text-decoration: underline;
+}
+
+.OverviewContainer p{
+    font-weight: bold;
+    text-align: left;
+}
+
+.OverviewContainer h4{
+    text-align: left;
+}
